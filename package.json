@@ -1,0 +1,17 @@
+{
+  "name": "parcel-com-teste-unitario",
+  "source": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "node src/tests/matematica.spec.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "parcel": "^2.0.1"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}
